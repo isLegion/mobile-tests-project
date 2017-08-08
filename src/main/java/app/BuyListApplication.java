@@ -1,4 +1,4 @@
-package pages;
+package app;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
@@ -17,7 +17,5 @@ public class BuyListApplication {
     }
 
     public MyListsSteps myListSteps() { return new MyListsSteps(driver);}
-
-    public ProductSteps projectSteps() { return new ProductSteps(driver);}
 
 }

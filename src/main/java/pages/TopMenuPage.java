@@ -1,4 +1,4 @@
-package blocks;
+package pages;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
@@ -9,7 +9,7 @@ import pages.AppiumBasePage;
 /**
  * Created by zsmirnova on 8/4/17.
  */
-public class TopMenu extends AppiumBasePage {
+public class TopMenuPage extends AppiumBasePage {
 
     @AndroidFindBy(id = "button1")
     private WebElement topMenu;
@@ -25,7 +25,7 @@ public class TopMenu extends AppiumBasePage {
         return setings;
     }
 
-    public TopMenu(AppiumDriver<MobileElement> driver) {
+    public TopMenuPage(AppiumDriver<MobileElement> driver) {
         super(driver);
     }
 }

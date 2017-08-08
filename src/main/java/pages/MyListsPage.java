@@ -2,7 +2,6 @@ package pages;
 
 import blocks.ListItem;
 import blocks.ContextDialog;
-import blocks.TopMenu;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import org.openqa.selenium.WebElement;
@@ -13,7 +12,7 @@ import java.util.List;
 /**
  * Created by zsmirnova on 7/28/17.
  */
-public class MyListsPage extends TopMenu {
+public class MyListsPage extends TopMenuPage {
 
     @AndroidFindBy(id = "editText1")
     private WebElement inputName;

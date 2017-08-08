@@ -1,6 +1,6 @@
 package steps;
 
-import blocks.TopMenu;
+import pages.TopMenuPage;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.qameta.allure.Step;
@@ -14,7 +14,7 @@ import pages.SettingsPage;
 public class SettingsSteps extends BaseSteps {
 
     SettingsPage settingsPage = new SettingsPage(getDriver());
-    TopMenu topMenu = new TopMenu(getDriver());
+    TopMenuPage topMenu = new TopMenuPage(getDriver());
 
     @Step("Open setting in top navigation menu")
     public SettingsSteps openSettings() {
